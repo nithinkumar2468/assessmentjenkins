@@ -24,8 +24,7 @@ public class RestController {
 
 	@Autowired                                   //connection to service layer
 	private EmployeeService empService;
-	
-	
+
 	@GetMapping("/employees")                                            //load the data
 	public ResponseEntity<List<Employee>> getAllEmployees(){
 		
