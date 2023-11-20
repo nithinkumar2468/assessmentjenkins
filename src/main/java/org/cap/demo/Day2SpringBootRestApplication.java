@@ -10,5 +10,6 @@ public class Day2SpringBootRestApplication {
 		SpringApplication.run(Day2SpringBootRestApplication.class, args);
 		
 		
+		
 	}
 }
